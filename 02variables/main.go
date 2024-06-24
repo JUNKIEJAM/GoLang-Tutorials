@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(anotherVariable)
 	fmt.Printf("Variable is of type : %T \n", anotherVariable)
 
-	// implicity type
+	// implicit type
 	var website = "wwww.google.com"
 	fmt.Println((website))
 
