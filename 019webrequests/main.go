@@ -9,7 +9,7 @@ import (
 const url = "https://google.com"
 
 func main() {
-	fmt.Println("Google  Web Request")
+	fmt.Println("Google Web Request")
 
 	response, err := http.Get(url)
 
