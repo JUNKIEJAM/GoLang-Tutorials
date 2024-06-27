@@ -3,6 +3,7 @@ package main
 import (
 	"crypto/rand"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -20,7 +21,7 @@ func main() {
 
 	// rand.Int(6)
 
-	// rand.NewSource(Seed(time.Now().UnixNano()))
+	rand.Seed(time.Now().UnixNano())
 	diceNumber := rand.Shuffle(6) + 1
 	fmt.Println("Value of dice is ", diceNumber)
 
